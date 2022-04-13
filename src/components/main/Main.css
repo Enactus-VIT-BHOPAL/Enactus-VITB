@@ -1,0 +1,32 @@
+.main {
+  margin-left: 300px;
+}
+
+ /* To Fix Warning in Edge */
+
+body {
+  text-size-adjust: 100%;
+}
+
+.form-control {
+  --webkit-background-clip: padding-box;
+}
+
+.form-check-input {
+  -webkit-print-color-adjust: exact;
+}
+
+.sticky-top {
+  position: -webkit-sticky;
+}
+
+th {
+  text-align: match-parent;
+  text-align:-webkit-match-parent
+}
+
+@media (max-width: 1199px) {
+  .main {
+    margin-left: 0;
+  }
+}

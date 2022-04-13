@@ -1,0 +1,70 @@
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  background: url("https://vitbhopal.ac.in/file/2020/02/VIT-Bhopal-1-scaled-e1580792779550.jpg") top center;
+  background-size: cover;
+}
+.hero-section:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.hero-section .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+
+.hero-section h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: var(--white-color);
+}
+
+.hero-section .hero-typewriter {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: var(--white-color);
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: var(--heading-font2);
+}
+
+.hero-section .hero-typewriter span {
+  color: var(--white-color);
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid var(--light-blue-background);
+  font-weight: bold;
+}
+
+@media (min-width: 1024px) {
+  .hero-section {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .hero-section h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  .hero-section {
+    width: 100%;
+    height: 100vh;
+    background: url("https://vitbhopal.ac.in/file/2020/02/VIT-Bhopal-1-scaled-e1580792779550.jpg") top center;
+    background-size: cover;
+  }
+}

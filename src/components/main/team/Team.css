@@ -1,0 +1,36 @@
+.portfolio .portfolio-flters {
+  padding: 0;
+  margin: 0 auto 10px auto;
+  list-style: none;
+  text-align: center;
+  background: var(--white-color);
+  border-radius: 50px;
+  padding: 2px 15px;
+}
+
+.portfolio .portfolioCard-wrapper{
+  padding-top: 0;
+}
+
+.portfolio .subcategory-wrapper{
+  padding-top: 0;
+}
+
+.portfolio .portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px 8px 15px;
+  font-size: var(--smallest-font);
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #272829;
+  transition: all 0.2s ease-in-out;
+}
+.portfolio .portfolio-flters li:hover, .portfolio .portfolio-flters li.filter-active {
+  color: var(--light-blue-background);
+}
+.portfolio .portfolio-flters li:last-child {
+  margin-right: 0;
+}
+

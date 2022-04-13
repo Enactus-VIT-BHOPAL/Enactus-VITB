@@ -1,0 +1,22 @@
+/* overwrite section-title padding */
+.about-section .section-title{
+  padding-bottom: 0;
+}
+.about-section .content h3{
+  color: var(--light-font-color) ;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 20px;
+}
+
+
+@media (max-width: 768px){
+  .about-section .about_img{
+    display: none;
+  }
+  .about-section .content{
+    padding-bottom: 0;
+    height: auto;
+    padding-top: 0;
+  }
+}
