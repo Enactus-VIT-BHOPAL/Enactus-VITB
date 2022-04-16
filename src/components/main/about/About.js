@@ -4,7 +4,7 @@ import profileImg from "../../../assets/img/enactus-group-photo.jpeg";
 
 function About({ id }) {
   return (
-    <section className="about-section" id={id}>
+    <section className="about-section section-bg" id={id}>
       <div className="container">
       <div className="section-title">
         <h2>About Us</h2>

@@ -1,6 +1,7 @@
 import React from "react";
 import { BiHome } from "react-icons/bi";
 import { BiUser } from "react-icons/bi";
+import { BiCake } from "react-icons/bi";
 import { FaDiscord } from "react-icons/fa";
 import { BsWhatsapp } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
@@ -23,12 +24,18 @@ export const data = [
   },
   {
     id: 3,
+    to: "event",
+    offset: 0,
+    icon: <BiCake className="icon" />,
+  },
+  {
+    id: 4,
     to: "team",
     offset: 0,
     icon: <AiOutlineTeam className="icon" />,
   },
   {
-    id: 8,
+    id: 5,
     to: "contact",
     offset: 0,
     icon: <AiOutlineContacts className="icon" />,

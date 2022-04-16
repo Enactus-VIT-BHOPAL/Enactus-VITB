@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# feature under construction
+./src/assests/team_members.js
+./src/assests/team_members_old.js
+.src/components/main/team/TeamImages.js
+

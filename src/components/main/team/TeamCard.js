@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import placeHolder from '../../../assets/img/placeholder-img.png'
+import {images} from './TeamImages'
 
 function PortfolioCard({ items }) {
   var settings = {
@@ -38,7 +39,7 @@ function PortfolioCard({ items }) {
                     <div className="portfolioCard_content">
                     <a href={item.linkedin} target="_blank"><h3>{item.name}</h3></a> 
                       <p>
-                          <img src={placeHolder} alt="team_member_profile"/>
+                          <img src={images[item.id-1] != "" ? images[item.id-1]: placeHolder} alt="team_member_profile"/>
                       </p>
                     </div>
                   </div>
@@ -61,7 +62,7 @@ function PortfolioCard({ items }) {
                       <div className="portfolioCard_content">
                         <a href={item.linkedin} target="_blank"><h3>{item.name}</h3></a>
                         <p>
-                        <img src={placeHolder} alt="team_member_profile"/>
+                        <img src={images[item.id-1]} alt="team_member_profile"/>
                         </p>
                       </div>
                     </div>

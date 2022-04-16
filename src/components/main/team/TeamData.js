@@ -85,7 +85,6 @@ export const menu = [
     category: ["CoT"],
     subCategory: ["Lead"],
     name: "Fiza Siddiqui",
-    image: "FS",
     linkedin: "https://www.linkedin.com/in/fiza-siddiqui-445260209",
     insta:""
   },
@@ -94,7 +93,6 @@ export const menu = [
     category: ["CoT"],
     subCategory: ["Co-Lead"],
     name: "Aditi Nayak",
-    image: "AN",
     linkedin: "",
     insta:""
   },
@@ -103,8 +101,6 @@ export const menu = [
     category: ["CoT"],
     subCategory: ["Members"],
     name:"Nitya Bansal",
-    image: "NB",
-    image_path:"../../../assets/team_members/CoT/Nitya Bansal Content Team.jpg",
     linkedin:"https://www.linkedin.com/in/nitya-bansal-2701581b0/",
     insta:""
   },
@@ -113,8 +109,6 @@ export const menu = [
     category: ["CoT"],
     subCategory: ["Members"],
     name:"Mitrashis Basu Roy",
-    image:"MBR",
-    image_path:"../../../assets/team_members/CoT/Mitrashis Basu Roy - Content team.jpg",
     linkedin:"https://www.linkedin.com/in/mitrashis-basu-roy/",
     insta:""
   },
@@ -123,8 +117,6 @@ export const menu = [
     category: ["CoT"],
     subCategory: ["Members"],
     name:"Shreya Singh",
-    image: "SS",
-    image_path:"../../../assets/team_members/CoT/Shreya Singh Content Team.jpg",
     linkedin:"https://www.linkedin.com/in/shreya-singh-879b82231/",
     insta:""
   },
@@ -133,7 +125,6 @@ export const menu = [
     category: ["CrT"],
     subCategory: ["Members"],
     name:"Anupam Srivastava",
-    image:"../../../assets/team_members/CrT/Anupam Srivastava (creative team ).jpg",
     linkedin:"https://www.linkedin.com/in/anupam-srivastava-886384219",
     insta:""
   },
@@ -142,7 +133,6 @@ export const menu = [
     category: ["CrT"],
     subCategory: ["Members"],
     name:"Anant Dubey",
-    image:"../../../assets/team_members/team_members/CrT/Anant Dubey Creative team.png",
     linkedin:"https://www.linkedin.com/m/in/anantdubey16",
     insta:""
   },
@@ -151,7 +141,6 @@ export const menu = [
     category: ["CrT"],
     subCategory: ["Members"],
     name:"Arun thomas",
-    image:"../../../assets/team_members/CrT/Arun_Thomas_M_Creatives&Design Team Member.png",
     linkedin:"https://www.linkedin.com/in/arunthomas13/",
     insta:""
   },  
@@ -160,7 +149,6 @@ export const menu = [
     category: ["CrT"],
     subCategory: ["Lead"],
     name:"Isha Dwivedi",
-    image:"../../../assets/team_members/CrT/Isha Dwivedi - Creatives Lead.png",
     linkedin:"https://www.linkedin.com/in/isha-dwivedi/",
     insta:""
   },  
@@ -169,7 +157,6 @@ export const menu = [
     category: ["CrT"],
     subCategory: ["Co-Lead"],
     name:"Zankhana Mehta",
-    image:"../../../assets/team_members/CrT/Zankhana Mehta-creative Co lead.jpg",
     linkedin:"",
     insta:""
   },
@@ -178,7 +165,6 @@ export const menu = [
     category: ["ET"],
     subCategory: ["Lead"],
     name:"Nayan Kumar",
-    image:"team_members\ET\NayanKumar_EventsLead.jpeg",
     linkedin:"",
     insta:""
   },  
@@ -187,7 +173,6 @@ export const menu = [
     category: ["ET"],
     subCategory: ["Members"],
     name:"Mukta Soni",
-    image:"../../../assets/team_members/ET/Mukta Soni_Events Team member.jpg",
     linkedin:"https://www.linkedin.com/in/mukta-soni-44b687237",
     insta:""
   },
@@ -196,7 +181,6 @@ export const menu = [
     category: ["ET"],
     subCategory: ["Members"],
     name:"Adya Pathak",
-    image:"../../../assets/team_members/ET/Adya Pathak _Events Team member.jpg",
     linkedin:"https://www.linkedin.com/in/adya-pathak-127b6b22b/",
     insta:""
   },
@@ -205,7 +189,6 @@ export const menu = [
     category: ["ET"],
     subCategory: ["Members"],
     name:"Prakashini Srivastava",
-    image:"",
     linkedin:"",
     insta:""
   }, 
@@ -214,7 +197,6 @@ export const menu = [
     category: ["ET"],
     subCategory: ["Members"],
     name:"Harsha Khadatkar",
-    image:"../../../assets/team_members/ET/Harsha Khadatkar event team21BCE11147.jpg",
     linkedin:"",
     insta:""
   },
@@ -223,7 +205,6 @@ export const menu = [
     category: ["FT"],
     subCategory: ["Members"],
     name:"Anirudh Shamna",
-    image:"../../../assets/team_members/FT/Anirudh Praveen Shamna - Finance Core Member.jpg",
     linkedin:"",
     insta:""
   },
@@ -232,7 +213,6 @@ export const menu = [
     category: ["FT"],
     subCategory: ["Members"],
     name:"Saubhaggya Srivastava",
-    image:"../../../assets/team_members/FT/Saubhaggya Srivastava FInance Team.jpg",
     linkedin:"https://www.linkedin.com/in/saubhaggya-srivastava/",
     insta:""
   },
@@ -241,7 +221,6 @@ export const menu = [
     category: ["FT"],
     subCategory: ["Lead"],
     name:"Mahika Aggarwal",
-    image:"../../../assets/team_members/FT/Mahika Agrawal - Funding and Finance Lead.jpeg",
     linkedin:"",
     insta:""
   },
@@ -259,7 +238,6 @@ export const menu = [
     category: ["MT"],
     subCategory: ["Lead"],
     name:"Tejaswini Johri",
-    image:"../../../assets/team_members/MT/Tejaswini Johri- Marketing Lead.jpg",
     linkedin:"https://www.linkedin.com/in/tejaswini-johri-4688931ba/",
     insta:""
   },
@@ -268,7 +246,6 @@ export const menu = [
     category: ["MT"],
     subCategory: ["Members"],
     name:"Arushi Saxena",
-    image:"../../../assets/team_members/MT/Arushi Saxena-Marketing team_.webp",
     linkedin:"",
     insta:""
   },
@@ -277,7 +254,6 @@ export const menu = [
     category: ["MT"],
     subCategory: ["Members"],
     name:"Khushi Sharma",
-    image:"../../../assets/team_members/MT/Khushi Sharma_Marketing team.jpeg",
     linkedin:"https://www.linkedin.com/in/arushi-saxena-72805b22a/",
     insta:""
   },
@@ -286,7 +262,6 @@ export const menu = [
     category: ["MT"],
     subCategory: ["Members"],
     name:"Suhani Singhal",
-    image:"../../../assets/team_members/MT/SUHANI SINGHAL_MARKETING TEAM.jpeg",
     linkedin:"https://www.linkedin.com/in/suhani-singhal-282216213/",
     insta:""
   },
@@ -295,7 +270,6 @@ export const menu = [
     category: ["TT"],
     subCategory: ["Members"],
     name:"Vashali Jain",
-    image:"../../../assets/team_members/TT/Vaishali Jain_Technical Team.JPG",
     linkedin:"https://www.linkedin.com/in/vaishali-jain-8160061bb/",
     insta:""
   }, 
@@ -304,7 +278,6 @@ export const menu = [
     category: ["TT"],
     subCategory: ["Members"],
     name:"Harshil Rathore",
-    image:"../../../assets/team_members/TT/Harshil Rathod - Technical Team.jpg",
     linkedin:"https://www.linkedin.com/in/harshil-rathod-11b810202",
     insta:""
   },
@@ -313,7 +286,6 @@ export const menu = [
     category: ["TT"],
     subCategory: ["Members"],
     name:"Divya Chaskshu Bisht",
-    image:"../../../assets/team_members/TT/Divya Chakshu Bisht Tech team (1).jpg",
     linkedin:"https://www.linkedin.com/in/divya-chakshu-bisht-527393203",
     insta:""
   },
@@ -322,7 +294,6 @@ export const menu = [
     category: ["TT"],
     subCategory: ["Lead"],
     name:"Ananya Sharma",
-    image:"../../../assets/team_members/TT/ananya_sharma- Technical Team Lead.jpeg",
     linkedin:"https://www.linkedin.com/in/ananya-sharma-388943201/",
     insta:""
   },
